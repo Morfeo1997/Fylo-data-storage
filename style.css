@@ -113,60 +113,31 @@ body{
 }
 
 
-.input{
-	-webkit-appearance: none;
+
+.progress{
 	background-color: var(--very-Dark-Blue);
-	border-radius: 1em;
-}
-
-.input::-webkit-slider-thumb{
-	-webkit-appearance: none;
-	background-color: white;
-	width: 1em;
+	border: transparent;
 	height: 1em;
-	border-radius: 50%;
-
-}
-
-.input::-webkit-slider-runnable-track{
-	background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
-	padding: 0.2em 0.1em;
-	height: 70%;
 	border-radius: 1em;
-	cursor: pointer;
+	padding: 0.1em;
+	width: 95%;
 }
 
-.input::-moz-range-thumb{
-	background-color: white;
-	width: 1em;
-	height: 1em;
-	border-radius: 50%;
-
+.progress::-webkit-progress-bar {
+  background-color: var(--very-Dark-Blue);
+  border-radius: 1em;
 }
 
-.input::-moz-range-progress{
+.progress::-webkit-progress-value {
+  background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+  border-radius: 1em;
+}
+
+.progress::-moz-progress-bar{
 	background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
-	padding-left: 0.1em;
-	height: 70%;
 	border-radius: 1em;
-	cursor: pointer;
 }
 
-.input::-ms-thumb{
-	background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
-	padding-left: 0.1em;
-	height: 70%;
-	border-radius: 1em;
-	cursor: pointer;
-}
-
-.input::-ms-fill-lower{
-	background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
-	padding-left: 0.1em;
-	height: 70%;
-	border-radius: 1em;
-	cursor: pointer;
-}
 
 .gb-container{
 	display: flex;
